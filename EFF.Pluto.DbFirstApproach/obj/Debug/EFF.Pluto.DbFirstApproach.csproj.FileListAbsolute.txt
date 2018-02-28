@@ -1,0 +1,10 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EFF.Pluto.DbFirstApproach.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EFF.Pluto.DbFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EFF.Pluto.DbFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\obj\Debug\EFF.Pluto.DbFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\obj\Debug\EFF.Pluto.DbFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.Pluto.DbFirstApproach\obj\Debug\EFF.Pluto.DbFirstApproach.csprojResolveAssemblyReference.cache

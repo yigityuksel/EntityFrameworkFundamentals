@@ -1,0 +1,10 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\Vidzy.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\Vidzy.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\Vidzy.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\obj\Debug\Vidzy.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\obj\Debug\Vidzy.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy\obj\Debug\Vidzy.csprojResolveAssemblyReference.cache

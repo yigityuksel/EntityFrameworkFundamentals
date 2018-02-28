@@ -1,0 +1,12 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EFF.PlutoCodeFirstApproach.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EFF.PlutoCodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EFF.PlutoCodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.InitialMigration.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.csproj.GenerateResource.Cache

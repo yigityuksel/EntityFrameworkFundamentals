@@ -1,0 +1,10 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EFF.DatabaseFirstApproach.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EFF.DatabaseFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EFF.DatabaseFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\obj\Debug\EFF.DatabaseFirstApproach.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\obj\Debug\EFF.DatabaseFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DatabaseFirstApproach\obj\Debug\EFF.DatabaseFirstApproach.pdb

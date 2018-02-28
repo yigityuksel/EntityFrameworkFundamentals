@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.DatabaseFirstApproach", "EFF.DatabaseFirstApproach\EFF.DatabaseFirstApproach.csproj", "{667D8418-1E45-46F7-BFAF-F758961B9F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.CodeFirstApproach", "EFF.CodeFirstApproach\EFF.CodeFirstApproach.csproj", "{A440E1F5-6FFD-421D-895F-F6389D9F5862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.Pluto.DbFirstApproach", "EFF.Pluto.DbFirstApproach\EFF.Pluto.DbFirstApproach.csproj", "{07EE27FD-9291-49CF-9CE1-CBA0B3B7E608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeExamples", "CodeExamples", "{1A30AB75-CAA1-469A-B6A2-9A9BE4318A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidzy", "Vidzy\Vidzy.csproj", "{EBD53043-0F59-48B6-B428-12F9BAF22AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.PlutoCodeFirstApproach", "EFF.PlutoCodeFirstApproach\EFF.PlutoCodeFirstApproach.csproj", "{3D2AF469-427E-4DA0-ABB4-0A99319353CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{667D8418-1E45-46F7-BFAF-F758961B9F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667D8418-1E45-46F7-BFAF-F758961B9F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667D8418-1E45-46F7-BFAF-F758961B9F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667D8418-1E45-46F7-BFAF-F758961B9F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A440E1F5-6FFD-421D-895F-F6389D9F5862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A440E1F5-6FFD-421D-895F-F6389D9F5862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A440E1F5-6FFD-421D-895F-F6389D9F5862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A440E1F5-6FFD-421D-895F-F6389D9F5862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EE27FD-9291-49CF-9CE1-CBA0B3B7E608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EE27FD-9291-49CF-9CE1-CBA0B3B7E608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EE27FD-9291-49CF-9CE1-CBA0B3B7E608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EE27FD-9291-49CF-9CE1-CBA0B3B7E608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD53043-0F59-48B6-B428-12F9BAF22AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD53043-0F59-48B6-B428-12F9BAF22AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD53043-0F59-48B6-B428-12F9BAF22AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD53043-0F59-48B6-B428-12F9BAF22AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2AF469-427E-4DA0-ABB4-0A99319353CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2AF469-427E-4DA0-ABB4-0A99319353CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2AF469-427E-4DA0-ABB4-0A99319353CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2AF469-427E-4DA0-ABB4-0A99319353CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBD53043-0F59-48B6-B428-12F9BAF22AFF} = {1A30AB75-CAA1-469A-B6A2-9A9BE4318A19}
+	EndGlobalSection
+EndGlobal

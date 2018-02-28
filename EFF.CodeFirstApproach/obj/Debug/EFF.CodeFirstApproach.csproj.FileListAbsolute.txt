@@ -1,0 +1,12 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EFF.CodeFirstApproach.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EFF.CodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EFF.CodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\obj\Debug\EFF.CodeFirstApproach.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\obj\Debug\EFF.CodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\obj\Debug\EFF.CodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\obj\Debug\EFF.CodeFirstApproach.Migrations.CreatePost.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.CodeFirstApproach\obj\Debug\EFF.CodeFirstApproach.csproj.GenerateResource.Cache
