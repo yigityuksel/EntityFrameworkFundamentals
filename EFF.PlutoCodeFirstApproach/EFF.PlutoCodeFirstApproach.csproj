@@ -61,6 +61,34 @@
     <Compile Include="Migrations\201802281548210_InitialMigration.Designer.cs">
       <DependentUpon>201802281548210_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803010732302_AddCategoriesTable.cs" />
+    <Compile Include="Migrations\201803010732302_AddCategoriesTable.Designer.cs">
+      <DependentUpon>201803010732302_AddCategoriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010736579_AddCategoryColumnToCoursesTable.cs" />
+    <Compile Include="Migrations\201803010736579_AddCategoryColumnToCoursesTable.Designer.cs">
+      <DependentUpon>201803010736579_AddCategoryColumnToCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010741026_AddDatePublishedColumnToCoursesTable.cs" />
+    <Compile Include="Migrations\201803010741026_AddDatePublishedColumnToCoursesTable.Designer.cs">
+      <DependentUpon>201803010741026_AddDatePublishedColumnToCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010742209_RenameTitleToNameInCoursesTable.cs" />
+    <Compile Include="Migrations\201803010742209_RenameTitleToNameInCoursesTable.Designer.cs">
+      <DependentUpon>201803010742209_RenameTitleToNameInCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010754233_DeleteDatePublishedColumnFromCoursesTable.cs" />
+    <Compile Include="Migrations\201803010754233_DeleteDatePublishedColumnFromCoursesTable.Designer.cs">
+      <DependentUpon>201803010754233_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010756293_DeleteCategoryColumnFromCoursesTable.cs" />
+    <Compile Include="Migrations\201803010756293_DeleteCategoryColumnFromCoursesTable.Designer.cs">
+      <DependentUpon>201803010756293_DeleteCategoryColumnFromCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803010758081_DeleteCategoriesTable.cs" />
+    <Compile Include="Migrations\201803010758081_DeleteCategoriesTable.Designer.cs">
+      <DependentUpon>201803010758081_DeleteCategoriesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +100,27 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201802281548210_InitialMigration.resx">
       <DependentUpon>201802281548210_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010732302_AddCategoriesTable.resx">
+      <DependentUpon>201803010732302_AddCategoriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010736579_AddCategoryColumnToCoursesTable.resx">
+      <DependentUpon>201803010736579_AddCategoryColumnToCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010741026_AddDatePublishedColumnToCoursesTable.resx">
+      <DependentUpon>201803010741026_AddDatePublishedColumnToCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010742209_RenameTitleToNameInCoursesTable.resx">
+      <DependentUpon>201803010742209_RenameTitleToNameInCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010754233_DeleteDatePublishedColumnFromCoursesTable.resx">
+      <DependentUpon>201803010754233_DeleteDatePublishedColumnFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010756293_DeleteCategoryColumnFromCoursesTable.resx">
+      <DependentUpon>201803010756293_DeleteCategoryColumnFromCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803010758081_DeleteCategoriesTable.resx">
+      <DependentUpon>201803010758081_DeleteCategoriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

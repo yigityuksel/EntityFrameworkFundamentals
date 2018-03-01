@@ -1,10 +1,9 @@
+using System.Collections.Generic;
+using EFF.PlutoCodeFirstApproach.Domain;
+using System.Data.Entity.Migrations;
+
 namespace EFF.PlutoCodeFirstApproach.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
     internal sealed class Configuration : DbMigrationsConfiguration<EFF.PlutoCodeFirstApproach.Context.PlutoContext>
     {
         public Configuration()
@@ -18,6 +17,20 @@ namespace EFF.PlutoCodeFirstApproach.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
+            context.Authors.AddOrUpdate(a => a.Name, new Author
+            {
+                Name = "Author 1",
+                Courses = new List<Course>()
+                        {
+                            new Course()
+                            {
+                                Name = "Course 1 for AU 1",
+                                Description = "Desc"
+                            }
+                        }
+            });
+
         }
     }
 }

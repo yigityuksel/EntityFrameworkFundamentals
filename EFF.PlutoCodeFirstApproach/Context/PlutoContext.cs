@@ -12,6 +12,5 @@ namespace EFF.PlutoCodeFirstApproach.Context
         public DbSet<Course> Courses { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Tag> Tags { get; set; }
-        
     }
 }

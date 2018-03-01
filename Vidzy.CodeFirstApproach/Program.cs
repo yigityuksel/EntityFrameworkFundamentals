@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFF.CodeFirstApproach
+namespace Vidzy.CodeFirstApproach
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
         }

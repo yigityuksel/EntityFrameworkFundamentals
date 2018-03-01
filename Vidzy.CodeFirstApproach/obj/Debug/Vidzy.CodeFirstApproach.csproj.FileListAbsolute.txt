@@ -1,0 +1,14 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\Vidzy.CodeFirstApproach.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\Vidzy.CodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\Vidzy.CodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.Migrations.InitalMigration.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.csproj.GenerateResource.Cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.Migrations.GenreVideoOneToOne.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.CodeFirstApproach\obj\Debug\Vidzy.CodeFirstApproach.Migrations.AddClassificationTable.resources

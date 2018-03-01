@@ -10,3 +10,10 @@ C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach
 C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.pdb
 C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.InitialMigration.resources
 C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.csproj.GenerateResource.Cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.AddCategoriesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.AddCategoryColumnToCoursesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.AddDatePublishedColumnToCoursesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.RenameTitleToNameInCoursesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.DeleteDatePublishedColumnFromCoursesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.DeleteCategoryColumnFromCoursesTable.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.PlutoCodeFirstApproach\obj\Debug\EFF.PlutoCodeFirstApproach.Migrations.DeleteCategoriesTable.resources

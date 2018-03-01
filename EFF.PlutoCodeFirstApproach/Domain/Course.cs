@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http.Headers;
@@ -8,7 +9,7 @@ namespace EFF.PlutoCodeFirstApproach.Domain
     public class Course
     {
         public int Id { get; set; }
-        public string Title { get; set; }
+        public string Name { get; set; }
         public string Description { get; set; }
         public CourseLevel Level { get; set; }
         public float FullPrice { get; set; }
