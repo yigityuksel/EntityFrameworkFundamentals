@@ -1,0 +1,13 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EFF.DataAnnotations.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EFF.DataAnnotations.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EFF.DataAnnotations.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.Migrations.InitialModel.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.csproj.GenerateResource.Cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.DataAnnotations\obj\Debug\EFF.DataAnnotations.Migrations.AddAnnotationsToCourseTable.resources

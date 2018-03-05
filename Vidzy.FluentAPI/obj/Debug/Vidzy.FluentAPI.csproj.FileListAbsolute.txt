@@ -1,0 +1,14 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\Vidzy.FluentAPI.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\Vidzy.FluentAPI.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\Vidzy.FluentAPI.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.Migrations.InitalModel.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.csproj.GenerateResource.Cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.Migrations.VideoTags.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\Vidzy.FluentAPI\obj\Debug\Vidzy.FluentAPI.Migrations.VideoT.resources

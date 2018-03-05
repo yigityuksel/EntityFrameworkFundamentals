@@ -1,0 +1,12 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EFF.FluentAPI.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EFF.FluentAPI.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EFF.FluentAPI.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\obj\Debug\EFF.FluentAPI.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\obj\Debug\EFF.FluentAPI.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\obj\Debug\EFF.FluentAPI.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\obj\Debug\EFF.FluentAPI.Migrations.InitialModel.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.FluentAPI\obj\Debug\EFF.FluentAPI.csproj.GenerateResource.Cache
