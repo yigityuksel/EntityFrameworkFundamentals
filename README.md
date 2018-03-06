@@ -414,3 +414,164 @@ var query = from tempAuthorVariable in context.Authors
             from tempVariable in context.Courses
             select new { AuthorName = tempAuthorVariable.Name, Courses = tempVariable.Name }
 ``` 
+
+### LINQ Extension Cheat Sheet
+
+###### Restrictions
+``` 
+var query = context
+            .Where(C => c.Level == 1);
+``` 
+
+###### Ordering
+``` 
+var query = context
+            .Where(C => c.Level == 1)
+            .OrderByDescending(c => c.Name)
+            .ThenBy(c => c.Level);
+``` 
+
+###### Projection
+``` 
+var query = context
+            .Where(C => c.Level == 1)
+            .OrderByDescending(c => c.Name)
+            .ThenBy(c => c.Level)
+            .Select(c => new {
+                CourseName = c.Name,
+                AuthorName = c.Author.Name              
+            });
+
+var query = context
+            .Where(C => c.Level == 1)
+            .OrderByDescending(c => c.Name)
+            .ThenBy(c => c.Level)
+            .SelectMany(c => c.Tags);
+
+var query = context
+            .Where(C => c.Level == 1)
+            .OrderByDescending(c => c.Name)
+            .ThenBy(c => c.Level)
+            .SelectMany(c => c.Tags).Distinct();
+``` 
+
+###### Groupping
+``` 
+var query = context.Courses.GroupBy(c => c.Level);
+``` 
+
+###### Joining
+
+Inner Join:
+
+Use when there is no relationship between your entities and you need to link them based on a key.
+
+1) It has navigation property, so we can easily use it
+``` 
+var query = from tempVariable in context.Courses
+            select new { CourseName = tempVariable.Name, AuthorName = tempVariable.Author.Name }
+``` 
+
+2) Without navigation property
+``` 
+var query = context.Courses.Join(context.Authors,
+    c => c.AuthorId,
+    a => a.Id,
+    (course, author) => new
+        {
+        CourseName = course.Name,
+        AuthorName = author.Name
+    });
+``` 
+
+Group Join:
+
+Useful when you need to group objects by a property and count the number of objects in each group. In SQL we do this with LEFT JOIN, COUNT(*) and GROUP BY. In LINQ, we use group join.
+
+``` 
+var query = context.Authors.GroupJoin(
+    context.Courses,
+    a => a.Id, 
+    c => c.AuthorId, 
+    (author, courses) => new {
+        Author = author,
+        Courses = courses   
+    });
+``` 
+
+CrossJoin:
+
+To get full combinations of all objects on the left and the ones on the right. 
+
+``` 
+var query = context.Authors.SelectMany(
+    a => context.Courses, 
+    (author, course) => new {
+        AuthorName = author.Name,
+        CourseName =	course.Name	 
+    });
+``` 
+
+#### Methods that are not Supported by LINQ Syntax but in Extension Methods
+
+###### Partitioning
+``` 
+var query = context.Courses.Skip(10).Take(10);
+``` 
+
+###### Element Operators
+``` 
+//throws an exception if no elements found		
+context.Courses.First();	
+context.Courses.First(c => c.Level == 1);	
+
+//returns null if no elements found		
+context.Courses.FirstOrDefault();
+
+//not supported by SQL	Server	
+context.Courses.Last();	
+context.Courses.LastOrDefault();
+
+context.Courses.Single(c=>c.Id == 1);
+context.Courses.SingleOrDefault(c=> c.Id == 1);
+```
+
+###### Quantifying
+``` 
+bool allInLevel1 = context.Courses.All(c=> c.Level == 1);	
+
+bool anyInLevel1 = context.Courses.Any(c=> c.Level == 1);	
+``` 
+
+###### Aggregating
+``` 
+int count = context.Courses.Count();	
+int count = context.Courses.Count(c=> c.Level == 1);	
+
+var max = context.Courses.Max(c	=> c.Price);	
+var min = context.Courses.Min(c	=> c.Price);	
+var avg = context.Courses.Average(c=> c.Price);	
+var sum = context.Courses.Sum(c	=> c.Price);	
+```  
+
+#### Deferred Execution
+
+Queries are not executed immediately.
+
+Queries executed after : 
+ToList, ToArray, ToDictionary
+First, Last, Single, Count, Max, Min, Average.
+
+#### IQueryable<> vs IEnumerable<>
+
+In IQueryable<> queries added to end of queries(REAL SQL QUERY)
+``` 
+IQueryable<Course> res = context.Courses;
+var filtered = res.Where(c => c.Level == 1).toList();	
+```
+
+In IEnumerable<> first fetch all data and then applies filter.
+``` 
+IEnumerable<Course> res = context.Courses;
+var filtered = res.Where(c => c.Level == 1).toList();	
+```  
