@@ -1,0 +1,12 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EFF.LINQ.Fundamentals.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EFF.LINQ.Fundamentals.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EFF.LINQ.Fundamentals.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\obj\Debug\EFF.LINQ.Fundamentals.csprojResolveAssemblyReference.cache
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\obj\Debug\EFF.LINQ.Fundamentals.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\obj\Debug\EFF.LINQ.Fundamentals.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\obj\Debug\EFF.LINQ.Fundamentals.Migrations.InitialMigration.resources
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.LINQ.Fundamentals\obj\Debug\EFF.LINQ.Fundamentals.csproj.GenerateResource.Cache

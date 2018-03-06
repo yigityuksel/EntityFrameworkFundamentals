@@ -342,3 +342,75 @@ modelBuilder
 .HasRequired(c => c.Cover)
 .WithRequiredPrincipal(c => c.Course);
 ``` 
+
+### LINQ Cheat Sheet
+
+###### Restrictions
+``` 
+var query = from tempVariable in context.Courses
+            where tempVariable.Level == 1
+            select tempVariable;
+``` 
+
+###### Ordering
+``` 
+var query = from tempVariable in context.Courses
+            where tempVariable.Author.Id == 1
+            orderbt tempVariable.Level descending, tempVariable.Name
+            select tempVariable;
+``` 
+
+###### Projection
+``` 
+var query = from tempVariable in context.Courses
+            where tempVariable.Author.Id == 1
+            orderbt tempVariable.Level descending, tempVariable.Name
+            select new { Name = c.Name, Author = c.Author };
+``` 
+
+###### Groupping
+``` 
+var query = from tempVariable in context.Courses
+            group c by c.Level into tempGroupVariable
+            select g
+``` 
+
+###### Joining
+
+Inner Join:
+
+Use when there is no relationship between your entities and you need to link them based on a key.
+
+1) It has navigation property, so we can easily use it
+``` 
+var query = from tempVariable in context.Courses
+            select new { CourseName = tempVariable.Name, AuthorName = tempVariable.Author.Name }
+``` 
+
+2) Without navigation property
+``` 
+var query = from tempVariable in context.Courses
+            join tempAuthorVariable in context.Authors on tempVariable.AuthorId equals tempAuthorVariable.Id
+            select new { CourseName = tempVariable.Name, AuthorName = tempAuthorVariable.Name }
+``` 
+
+Group Join:
+
+Useful when you need to group objects by a property and count the number of objects in each group. In SQL we do this with LEFT JOIN, COUNT(*) and GROUP BY. In LINQ, we use group join.
+
+``` 
+var query = from tempAuthorVariable in context.Authors
+            join tempVariable in context.Courses on tempAuthorVariable.Id equals tempVariable.Id
+            into groupVariable
+            select new { AuthorName = tempAuthorVariable.Name, Courses = g.Count() }
+``` 
+
+CrossJoin:
+
+To get full combinations of all objects on the left and the ones on the right. 
+
+``` 
+var query = from tempAuthorVariable in context.Authors
+            from tempVariable in context.Courses
+            select new { AuthorName = tempAuthorVariable.Name, Courses = tempVariable.Name }
+``` 
