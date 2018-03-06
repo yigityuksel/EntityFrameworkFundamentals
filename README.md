@@ -671,3 +671,31 @@ context.Courses.Where(c => c.AuthorId == author.Id).Load();
 foreach (var course in author.Courses)
     Console.WriteLine("{0}", course.Name);
 ``` 
+
+## Associating Objects
+
+Using an existing object in Context:
+
+``` 
+course.Author = context.Authors.Single(a => a.Id == 1);
+``` 
+
+Using foreign key properties:
+``` 
+course.Author = 1;
+``` 
+
+Delete Objects with associations.
+
+``` 
+var author = context.Authors.Include(a => a.Course).Single(a => a.Id == 2);
+context.Courses.RemoveRange(author.Courses);
+context.Authors.Remove(author);
+
+context.SaveChanges();
+``` 
+#### Change Tracker
+
+```
+context.ChangeTracker.Entries();
+``` 
