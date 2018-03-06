@@ -575,3 +575,99 @@ In IEnumerable<> first fetch all data and then applies filter.
 IEnumerable<Course> res = context.Courses;
 var filtered = res.Where(c => c.Level == 1).toList();	
 ```  
+
+#### Loading Related Objects
+
+###### N+1 Problem :
+
+When to use eager loading
+
+1) In "one side" of one-to-many relations that you sure are used every where with main entity. like User property of an Article. Category property of a Product.
+2) Generally When relations are not too much and eager loading will be good practice to reduce further queries on server.
+
+When to use lazy loading
+
+1) Almost on every "collection side" of one-to-many relations. like Articles of User or Products of a Category
+2) You exactly know that you will not need a property instantly.
+
+###### Lazy Loading
+
+The virtual keywords, indicates lazy loading.
+
+``` 
+public virtual ICollection<Tag> Tags {get; set;}
+``` 
+
+Disable : 
+
+On DbContext ctor.
+
+``` 
+this.Configuration.LazyLoadingEnabled = false;
+``` 
+
+This piece of code points N+1 Problem,the problem says that we fetching all course List(N) when we need to get author, fetching author with new query (+1)
+
+```
+var courses = context.Courses.ToList();
+ 
+foreach (var course in courses)
+    Console.WriteLine("{0} by {1}", course.Name, course.Author.Name);
+``` 
+
+###### Eager Loading
+
+Eager Loading Bad Example, Magic String Used
+
+``` 
+var courseList = context.Courses.Include("Author").ToList();
+``` 
+
+object
+
+``` 
+var course_list = context.Courses.Include(a => a.Author).ToList();
+``` 
+
+
+single property
+
+``` 
+context.Courses.Include(a => a.Author.Name);
+``` 
+
+for collection property
+
+``` 
+context.Courses.Include(a => a.Tags);
+``` 
+
+collection bottom level loads.
+
+``` 
+context.Courses.Include(a => a.Tags.Select(t => t.Name));
+``` 
+
+###### Explicit Loading
+
+``` 
+var author = context.Authors.Include(a => a.Courses).Single(a => a.Id == 1).ToList();
+
+foreach (var course in author.Courses)
+    Console.WriteLine("{0}", course.Name);
+``` 
+
+convert to Explict Loading 
+
+``` 
+var author = context.Authors.Single(a => a.Id == 1).ToList();
+
+//MSDN Way - works for only one object.
+context.Entry(author).Collection(a => a.Courses).Load();
+
+//Best Approach
+context.Courses.Where(c => c.AuthorId == author.Id).Load();
+
+foreach (var course in author.Courses)
+    Console.WriteLine("{0}", course.Name);
+``` 
