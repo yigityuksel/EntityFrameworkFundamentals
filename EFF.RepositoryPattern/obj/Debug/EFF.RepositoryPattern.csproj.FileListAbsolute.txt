@@ -1,0 +1,9 @@
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EFF.RepositoryPattern.exe.config
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EFF.RepositoryPattern.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EFF.RepositoryPattern.pdb
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EntityFramework.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EntityFramework.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\obj\Debug\EFF.RepositoryPattern.exe
+C:\Users\y.yuksel\Desktop\EntityFrameworkFundamentals\EFF.RepositoryPattern\obj\Debug\EFF.RepositoryPattern.pdb

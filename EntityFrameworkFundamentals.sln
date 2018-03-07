@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.LINQ.Fundamentals", "EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidzy.LINQ", "Vidzy.LINQ\Vidzy.LINQ.csproj", "{87138B9C-3C02-45EF-BC49-84746CBEEC6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFF.RepositoryPattern", "EFF.RepositoryPattern\EFF.RepositoryPattern.csproj", "{8767C29D-0FFE-492C-9137-D8133959A2DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{87138B9C-3C02-45EF-BC49-84746CBEEC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87138B9C-3C02-45EF-BC49-84746CBEEC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87138B9C-3C02-45EF-BC49-84746CBEEC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8767C29D-0FFE-492C-9137-D8133959A2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8767C29D-0FFE-492C-9137-D8133959A2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8767C29D-0FFE-492C-9137-D8133959A2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8767C29D-0FFE-492C-9137-D8133959A2DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
